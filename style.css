@@ -1,0 +1,107 @@
+*{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.containerSlide__nav{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    color: white;
+    padding: 3vh 0 0 3vh;
+    align-items: center;   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 3vh;
+    align-items: center;
+    margin: 0;
+}
+
+li{
+    padding-left: 3vh;
+    cursor: pointer;   
+}
+
+.containerSlide__mySlide{
+    display: none;   
+}
+
+.containerSlides__slide{
+    display: flex;
+}
+
+.slide__text{
+    padding: 10vh 0 10vh 10vh;
+    position: relative;
+}
+
+.slide__title{
+    font-weight: 600;
+}
+
+.slide__about{
+    padding:3vh 0;
+    font-size: 0.8rem;
+}
+
+.slide__button{
+    border: none;
+    background-color: white;
+    letter-spacing: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.slide__arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+a{  
+    display: inline-block;
+    padding: 20px 32px;  
+}
+
+.containerSection{
+    display: flex;   
+}
+
+.containerSection__title{
+    padding: 6vh 3vh 1vh 4vh;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+}
+
+.containerSection__text{
+    padding-left: 4vh;
+    padding-right: 4vh;
+    font-size: 0.8rem;
+}
+
+
+
